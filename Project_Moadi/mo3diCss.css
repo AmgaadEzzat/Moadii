@@ -1,0 +1,154 @@
+#header{
+    width:100%;
+    height:4em;
+    background-color:#c1d5e0;
+    float:left;
+   
+   /* background-color: red;*/
+}
+
+.buttonHover{
+    text-decoration:none;
+    color:white;
+    font-family: "Times New Roman", Times, serif;}
+
+.button{
+    height:100%;
+    background-color: #006666;
+    border-radius: 8px;
+    border:1px #006666
+      
+}
+.buttonDiv{
+    margin-left:1em;
+    margin-top:1em;
+    width: 18%;
+    height:35px;
+   /* background-color: blueviolet;*/
+    float:left;
+}
+.buttonHover:hover{
+    color:black;
+}
+
+
+
+.menuHeader{
+    width:40%;
+    height: 80%;
+    float:left;
+    margin-left: 100px;
+    /*background-color: red;*/
+    padding: 1px
+    
+}
+
+
+.anchormenu{text-decoration:none; float:right;font-weight: bold;text-align: center}
+
+.Links{
+    float:left; /*background-color:blue*/; width:8%; padding: 2px; margin-top:1em;
+}
+
+.liMenueHed{list-style-type: none;  color:#167189 ;  float: right; text-align: center}
+
+.searchDiv{ min-height:25em; width:100%;background-image: url("images/bannerimg1.jpg"); background-repeat: no-repeat  ; padding-top:4em; }
+.listDiv{/*background-color:red;*/ width:40%; height:50%; margin-left:750px }
+
+    /*for arrow*/
+    .selectItem:after {
+        position: absolute;
+        content: "";
+        top: 14px;
+        right: 10px;
+        width: 0;
+        height: 0;
+        border: 6px solid transparent;
+        border-color: #fff transparent transparent transparent;}
+
+      .divselect {
+        padding:12px;
+        /*border: 1px solid transparent;*/
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+        background-color:rgba(53, 101, 129, 0.9);
+        width:80%;
+        height: 10%;
+        margin-left:20px;  }
+
+        
+        .selectItem  {
+            color:#759322;
+            padding: 6px;
+            border: 1px solid transparent;
+            border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+            font-size: 15px;
+            width:90%;
+            padding: 5px;
+            background-color: #dbdeee;
+            font-weight: bold; }
+
+          .buttonsearch{
+            width:90%;
+            height: 100%; 
+            background-color: #8aae0f;
+            padding: 6px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            border: #8aae0f;
+            color:white;
+            font-size: 15px;
+            font-weight: bold;
+          }
+
+          .divdoctors{width:100%; height:10%;/* background-color:blueviolet;*/margin:0px; margin-top:15px;}
+          .drAmar{float:left;height:11em;width:32%;background-color:#c1d5e0;margin-right:1em; margin-left:1em;position: relative; border-radius:2%; text-align: justify; }
+          .drRyad{float:left;height:11em;width:32%;background-color:#c1d5e0;margin-right:1em;position: relative;border-radius:2%; text-align: justify;}
+          .regist{float:left; height:11em; width:32%;background-color:#c1d5e0;position: relative;border-radius:2%; text-align: justify;}
+          .imgDoc{width:12em; height:9em; display:block; position:absolute;top:13px ;left:-10px; border-radius: 5%;border: 4px solid #ddd;cursor: pointer;   }
+          .detDr{float:right;max-width:10em;color:#167178;padding:0.5em}
+          .imgMoadiiL{width:20em; height: 30em;  position: absolute;top:0.5em;left:1em;}
+          
+        .registration{width:100%; height:10%;margin:0px; margin-top:6em;}
+         
+        .property{width:100%; height:25em;margin:0px; margin-top:3em;background-image:url(images/background.png); position: relative }
+        .propertyli{width:40%;height: 70%;margin-left:40em;padding-top: 0.5em;color:white}
+        .imgStore{width:30%;margin-left:40em;padding-left: 6em}
+
+        .moreDe{width:100%; height:25em;margin:0px; margin-top:6em;/*background-color: red*/}
+        .iframV{width:38em;height:20em;float:left;padding-top:3em;padding-left:2em;border:white}
+        .aboutMoa{max-width: 41em;margin-left:45em;color:#177078;font-size: 15px; text-align: justify;}
+
+        .service{width:100%; height:10em;margin:0px; margin-top:3em;background-color: #177179;padding-top:3em}
+       a{text-decoration: none}
+       .showserv{width:15em;height:1.8em;background-color: #91b80d;color:white;border-radius: 0.2em;float:left;margin-left: 25em;margin-right: 3em;text-align:center;padding-top:1em}
+       .shareserv{width:15em;height:1.8em;background-color: #4aaaba;color:white;border-radius: 0.2em;float:left;text-align: center;padding-top:1em}
+       
+     footer{width:100%;height: 31em;background-color:#c1d5e0}
+     .fotFm{width:19em;height: 12em;background-color: #c1e2f5;float:left;line-height: 1px;margin-top: 3em;margin-left: 2em}
+     .wrongemail{width:18em;height:3.3em;background-color: #f2dede;color:#a94442;border-radius: 0.2em;margin-left:0.6em;display: none}
+     .ParWrong{padding-left:5em;padding-top:2em;font-weight: bold;font-size: 14px;}
+     .inemail{width:21.5em;height:2.7em;margin-left:0.5em;margin-top:2em;background-color: #c1e2f5;border: 1px solid #167178;}
+     .butjoin{width:5em;height: 2.5em;border-radius: 0.3em;background-color: #8aae0f;margin-top:1em;margin-left: 0.5em;border: 1px solid #4faf4e }
+     .butjoin:hover{background-color: #449d44}
+     .butjoin a{color:white}
+     .linkfoo:hover{text-decoration: underline}
+     .hospital{float: left ;width:18em;height:15em;margin-top: 3em;color:#167178;margin-left:4em}
+     .specify{float: left;width:18em;height:15em;margin-top: 3em;color:#167178}
+     .moadiii{width:18em;height:20em;float: right;margin-top: 3em;color:#167178}
+     .linkfoo{color:#167178 ;font-size:15px;line-height: 1.5em}
+     .menufoo li a{float: left;padding-left:2em;color:#167178}
+     .menufoo li a:hover{text-decoration: underline;color:#8aae0f}
+     .menufoo{width:50em;float: left;margin-left:10em}
+
+     .imgDoc:hover{width:20em; height:15em;}
+     .imgDoc{transition: height 3s, width 3s}
+
+     .divWin{background-color: #ffb2b2;margin-top: 20px;padding-top:10px;width:50%;height: 600px;margin-left: 330px}
+     .WinForm{margin-top: 150px;margin-left: 190px ;color:#2f4f4f}
+     #EM{margin-left:40px}
+     .formInp{height: 25px;border-radius: 5%}
+     .LpInp{width:100px;font-size: 18px;font-family: Arial, Helvetica, sans-serif}
+     #PS{margin-left:8px}
+     .gender{font-size: 18px;font-family: Arial, Helvetica, sans-serif}
+     .Gmale{margin-left: 22px}
+     .sub{width:5em;height: 2.5em;border-radius: 0.3em;background-color:#ff3333;margin-top:1em;margin-left: 0.5em;border: 1px solid #ff3333;color:#2f4f4f}
